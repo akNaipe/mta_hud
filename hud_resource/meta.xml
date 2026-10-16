@@ -1,11 +1,11 @@
 <meta>
     <info author="Brasil Mundo Novo" name="BMN HUD" type="script" version="1.0.0" />
 
+    <!-- Bibliotecas (carregam primeiro) -->
+    <script src="lib/tf_lib.lua" type="client" cache="false" />
+
     <!-- Config -->
     <script src="cl_config.lua" type="client" cache="false" />
-
-    <!-- Bibliotecas -->
-    <script src="lib/tf_lib.lua" type="client" cache="false" />
 
     <!-- Fontes opcionais: adicione os .ttf em /files e descomente as linhas abaixo,
          então ajuste Config.Fonts em cl_config.lua (ex.: "files/roboto.ttf")
