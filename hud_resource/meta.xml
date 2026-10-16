@@ -1,0 +1,24 @@
+<meta>
+    <info author="Brasil Mundo Novo" name="BMN HUD" type="script" version="1.0.0" />
+
+    <!-- Config -->
+    <script src="cl_config.lua" type="client" cache="false" />
+
+    <!-- Bibliotecas -->
+    <script src="lib/tf_lib.lua" type="client" cache="false" />
+
+    <!-- Fontes opcionais: adicione os .ttf em /files e descomente as linhas abaixo,
+         então ajuste Config.Fonts em cl_config.lua (ex.: "files/roboto.ttf")
+    <file src="files/roboto.ttf" />
+    <file src="files/roboto-bold.ttf" />
+    <file src="files/icons.ttf" />
+    -->
+
+    <!-- Clientes -->
+    <script src="cl_functions.lua" type="client" cache="false" />
+    <script src="cl_hud.lua" type="client" cache="false" />
+    <script src="cl_chatbox.lua" type="client" cache="false" />
+
+    <!-- Servidor -->
+    <script src="sv_main.lua" type="server" cache="false" />
+</meta>
